@@ -15,7 +15,7 @@ export default function CharactersList() {
     <>
     <div style={{textAlign: "center"}}>
     <h1>{"Рик и Морти"}</h1>
-
+    <Link to={`/search`}><h1>Search</h1></Link>
     </div>
 
       <div style={{ padding: "0 20px", display: "flex", flexWrap: "wrap" }}>
